@@ -20,7 +20,7 @@ local O = Y.Button({
 	end	
 end
 })
-local O = Y.Button({
+local U = Y.Button({
 	Text = "Duppear",
 	Callback = function()
 		print("Dupeando....")
