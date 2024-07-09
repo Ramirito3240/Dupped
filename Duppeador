@@ -1,0 +1,29 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local X = Material.Load({
+	Title = "Duppeador",
+	Style = 3,
+	SizeX = 140,
+	SizeY = 200,
+	Theme = "Aqua",
+	ColorOverrides = {
+		MainFrame = Color3.fromRGB(235,235,235)
+	}
+})
+local Y = X.New({
+	Title = "1"
+})
+local O = Y.Button({
+	Text = "Activar Duppeo",
+	Callback = function()
+		print("Dupeo Activado")
+	end	
+end
+})
+local O = Y.Button({
+	Text = "Duppear",
+	Callback = function()
+		print("Dupeando....")
+	end	
+end
+})
