@@ -17,13 +17,14 @@ local O = Y.Button({
 	Text = "Activar Duppeo",
 	Callback = function()
 		print("Dupeo Activado")
-	end	
+
 end
 })
 local U = Y.Button({
 	Text = "Duppear",
 	Callback = function()
 		print("Dupeando....")
-	end	
+                        wait(4)
+        print("Ya puedes aceptar el trade")
 end
 })
